@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+html,
+body {
+    overscroll-behavior: none;
+}
+
+body {
+    background-color: #f3f5f8;
+    overflow-x: hidden;
+}
+
+.questions {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 4em;
+    margin-top: 4em;
+    
+}
+
+h3 {
+    
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #4c51dd;
+}
+
+h1 {
+    
+    font-size: 2em;
+    font-weight: 900;
+    color: #534cdd;
+}
+
+.answer, ul {
+    font-size: 1.2em !important;
+    color: #2c414e;
+}
+
+ul {
+    margin-left: 2em;
+}
+
+/* Responsive for smaller screens */
+
+@media only screen and (max-width: 768px) {
+    .questions {
+        width: 90%;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .answer {
+        font-size: 1em;
+    }
+}
+
+/* Responsive for larger screens */
+
+@media only screen and (min-width: 1200px) {
+    .questions {
+        width: 70%;
+        margin-top: 6em;
+        margin-bottom: 6em;
+    }
+
+    h3 {
+        font-size: 1.6em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .answer {
+        font-size: 1.4em;
+    }
+}
